@@ -11,6 +11,8 @@ const page = async () => {
         {datas.map((data) => {
           return <UserCard key={data.dob.date} info={data} />;
         })}
+
+        <div className="text-4xl">hello</div>
       </div>
     </>
   );
